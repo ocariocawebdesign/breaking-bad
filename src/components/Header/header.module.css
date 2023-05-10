@@ -13,11 +13,19 @@
 
 .menu a {
   color: var(--greenPrimary);
-  margin-left: 50px;
+  margin-left: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 .menu a:hover {
-  text-decoration: underline;
+  
+  color:#FAFAFA;
+  background-color: #115c3a;
+  padding: 0.2em;
+  border-radius: 3px;
 }
 
 @media (max-width: 991px) {

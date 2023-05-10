@@ -11,4 +11,7 @@ export const FooterApp = styled.footer`
     text-align: center;
     font-size:12px;
   }
+  a {
+    text-decoration: none;
+  }
 `;
